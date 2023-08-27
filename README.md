@@ -4,8 +4,6 @@
 [notion](https://www.notion.so/12-vVibe-f1720464b22645d18a99c2914c39fff9)
 [whimsical sitemap + wireframe](https://whimsical.com/vvibe-K94b764LD6s78rpSvM2Kg1)
 [Figma連結](https://www.figma.com/file/k3k2DI66h0chC3qnx37kwl/vVibe-%E9%A4%90%E5%BB%B3%E9%9B%BB%E5%95%86%E7%B6%B2%E7%AB%99?type=design&mode=design&t=pIlYFY7UlOBa7GIF-0)
-[圖片連結]()
-
 
 ### 套件
 [bootstrap](https://bootstrap5.hexschool.com/)

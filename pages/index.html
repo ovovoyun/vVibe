@@ -1,15 +1,137 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vVibe</title>
     <%- include('./layout/head.ejs'); -%>
 </head>
+
 <body>
     <%- include('./layout/header.ejs'); -%>
-    vVibe
+    <%- include('./layout/subHeader.ejs'); -%>
+    <section id="carouselBanner" class="carousel slide mb-80">
+        <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+                <div class="position-absolute bannerText text-center text-lg-start">
+                    <h2 class="mb-2 mb-lg-3 ff-notoSerif fs-4 fs-lg-1 text-light">品味新食尚<br/>滿足味蕾的渴望</h2>
+                    <a href="#" type="button" class="btn btn-primary px-lg-20 fs-lg-5">立即探索</a>
+                </div>
+                <img src="../assets/images/banner1.png" class="d-block w-100 object-fit-cover" alt="banner1">
+            </div>
+            <div class="carousel-item active position-relative">
+                <div class="position-absolute bannerText text-center text-lg-start">
+                    <h2 class="mb-2 mb-lg-3 ff-notoSerif fs-4 fs-lg-1 text-light">品味新食尚<br/>滿足味蕾的渴望</h2>
+                    <a href="#" type="button" class="btn btn-primary px-lg-20 fs-lg-5">立即探索</a>
+                </div>
+                <img src="../assets/images/banner2.png" class="d-block w-100 object-fit-cover" alt="banner2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <section class="container">
+        <div class="row row-cols-1 gy-80 mb-80">
+            <div class="col">
+                <div class="row justify-content-center align-items-center row-cols-1 row-cols-lg-2 gy-3 gy-lg-0">
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="position-relative fit-content">
+                            <img src="../assets/images/quoteTop.png" alt="quoteImg" class="position-absolute z-n1 translate-50 quoteImg quoteTop">
+                            <p class="ff-notoSerif fs-5 fs-2 text-primary text-center text-lg-start">
+                                您曾因為排隊，<br/>將耐心消磨殆盡嗎？
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="../assets/images/customerTrouble1.png" alt="customerTrouble1" class="img-fluid customerTroubleImg">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row flex-lg-row-reverse justify-content-center align-items-center row-cols-1 row-cols-lg-2 gy-3 gy-lg-0">
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="position-relative fit-content">
+                            <img src="../assets/images/quoteDown.png" alt="quoteImg" class="position-absolute z-n1 quoteImg quoteDown">
+                            <p class="ff-notoSerif fs-5 fs-2 text-primary text-center text-lg-start">
+                                您曾花費大量時間，<br/>在選購食材或商品嗎？
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="../assets/images/customerTrouble2.png" alt="customerTrouble2" class="img-fluid customerTroubleImg">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row justify-content-center align-items-center row-cols-1 row-cols-lg-2 gy-3 gy-lg-0">
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="position-relative fit-content">
+                            <img src="../assets/images/quoteTop.png" alt="quoteImg" class="position-absolute z-n1 translate-50 quoteImg quoteTop">
+                            <p class="ff-notoSerif fs-5 fs-2 text-primary text-center text-lg-start">
+                                您曾遇過因工作忙碌，<br/>難以配合宅配的情況嗎？
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="../assets/images/customerTrouble3.png" alt="customerTrouble1" class="img-fluid customerTroubleImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary position-relative overflow-hidden mb-80">
+        <span class="d-none position-absolute logoDecorateText ff-redHatMono fs-120 lh-1">vVibe</span>
+        <div class="container bg-light px-4">
+            <div class="bg-lightPrimary py-36 py-lg-64">
+                <h3 class="mb-4 mb-lg-5 ff-notoSerif fs-4 fs-lg-2 text-primary text-center">我們為您排難解憂</h3>
+                <div class="row row-cols-1 row-cols-lg-3 gy-4 gy-lg-0">
+                    <div class="col text-center">
+                        <span class="material-symbols-outlined mb-lg-2 fs-80 text-primary">food_bank</span>
+                        <h4 class="mb-2 ff-notoSerif fs-3 text-primary">愜意用餐</h4>
+                        <p>
+                            推出線上訂位服務，<br/>
+                            讓您不再受漫長等待之苦，<br/>
+                            即刻享受美食。
+                        </p>
+                    </div>
+                    <div class="col text-center">
+                        <span class="material-symbols-outlined mb-lg-2 fs-80 text-primary">shopping_bag</span>
+                        <h4 class="mb-2 ff-notoSerif fs-3 text-primary">輕鬆購物</h4>
+                        <p>
+                            堅持嚴格精選商品，<br/>
+                            為品質與價格雙重把關，<br/>
+                            讓您輕鬆選購好物。
+                        </p>
+                    </div>
+                    <div class="col text-center">
+                        <span class="material-symbols-outlined mb-lg-2 fs-80 text-primary">storefront</span>
+                        <h4 class="mb-2 ff-notoSerif fs-3 text-primary">便捷取貨</h4>
+                        <p>
+                            提供多元取貨方式，<br/>
+                            透過店內自取或宅配服務，<br/>
+                            讓您隨時都能體驗新食尚。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3 class="mb-4 mb-lg-5 ff-notoSerif fs-4 fs-lg-2 text-primary text-center">您可以...</h3>
+        
+    </section>
     <%- include('./layout/footer.ejs'); -%>
     <script type="module" src="../js/main.js"></script>
 </body>
+
 </html>

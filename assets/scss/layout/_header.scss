@@ -1,0 +1,9 @@
+.header{
+    &__logo{
+        @include size(24px, 24px);
+
+        @include lg{
+            @include size(32px, 32px);
+        }
+    }
+}

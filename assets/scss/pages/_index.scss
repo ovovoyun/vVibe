@@ -1,0 +1,65 @@
+/*---- banner ----*/
+.carousel-item{
+    max-height: 500px;
+    min-height: 250px;
+
+    img{
+        min-height: 250px;
+    }
+}
+
+.bannerText{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    @include lg{
+        left: 25%;
+    }
+}
+
+/*---- customerTrouble ----*/
+.quoteImg{
+    max-width: 70px;
+
+    @include lg{
+        max-width: 130px;
+    }
+}
+
+.quoteTop{
+    top: 20px;
+    left: 20px;
+
+    @include lg{
+        top: 0;
+        left: 0;
+    }
+}
+
+.quoteDown{
+    top: 100%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.customerTroubleImg{
+    max-height: 180px;
+
+    @include lg{
+        max-height: 400px;
+    }
+}
+
+
+/*----- -----*/
+@media (min-width: 1550px) {
+    .logoDecorateText{
+        display: block !important;
+        color: #ACCF7F;
+        transform: rotate(90deg) ;
+        top: 40%;
+        left: -140px;
+    
+    }
+}

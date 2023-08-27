@@ -3,6 +3,7 @@ $primary: #4A7D09;
 $lightPrimary: #F9FFEA;
 $danger: #BA5A31;
 $dark: #353531;
+$light: #fff;
 
 $lightGray: #F4F4F4;
 $darkGray: #B3B3B3;
@@ -16,9 +17,16 @@ $theme-colors: map-merge(
         "danger": $danger,
         "dark": $dark,
         "lightGray": $lightGray,
-        "darkGray": $darkGray
+        "darkGray": $darkGray,
+        "light": $light
     )
 );
+
+//button
+$btn-border-width: 2px;
+$btn-padding-y: 8px;
+$btn-font-weight: bold;
+$btn-link-hover-color: $danger;
 
 //form
 $input-placeholder-color: #878787;
@@ -39,10 +47,12 @@ $font-family-sans-serif:
     #{$custom-fonts},
     #{$font-family-sans-serif};
 
+$headings-line-height: 1.5;
 $font-sizes: map-merge(
     $font-sizes,
     (
-        14: 14px,
+        80: 80px,
+        120: 120px
     )
 );
 
@@ -50,7 +60,12 @@ $font-sizes: map-merge(
 $spacers: map-merge(
     $spacers,
     (
-        60: 60px,
+        12: 12px,
+        20: 20px,
+        28: 28px,
+        36: 36px,
+        64: 64px,
+        80: 80px
     )
 );
 
@@ -58,6 +73,7 @@ $headings-margin-bottom: 0;
 $paragraph-margin-bottom: 0;
 
 //radius
+$border-radius: 2px;
 $enable-rounded: false;
 
 //link underline

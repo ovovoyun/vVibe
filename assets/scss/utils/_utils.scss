@@ -1,6 +1,7 @@
 .ff-notoSerif{
     font-family: "Noto Serif TC";
     font-weight: 700;
+    letter-spacing: 0.05em;
 }
 
 .ff-notoSans{
@@ -10,4 +11,12 @@
 .ff-redHatMono{
     font-family: "Red Hat Mono";
     font-weight: 600;
+}
+
+.translate-50{
+    transform: translate(-50px, -50px);
+}
+
+.fit-content{
+    width: fit-content;
 }
