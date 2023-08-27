@@ -1,0 +1,70 @@
+//color
+$primary: #4A7D09;
+$lightPrimary: #F9FFEA;
+$danger: #BA5A31;
+$dark: #353531;
+
+$lightGray: #F4F4F4;
+$darkGray: #B3B3B3;
+
+
+$theme-colors: map-merge(
+    $theme-colors,
+    (
+        "primary": $primary,
+        "lightPrimary": $lightPrimary,
+        "danger": $danger,
+        "dark": $dark,
+        "lightGray": $lightGray,
+        "darkGray": $darkGray
+    )
+);
+
+//form
+$input-placeholder-color: #878787;
+
+$btn-close-focus-shadow: none;
+$input-focus-border-color: lighten($primary, 80%);
+$input-focus-box-shadow: none;
+
+$form-invalid-color: $danger;
+$form-invalid-border-color: $danger;
+
+$form-check-input-checked-bg-color: $primary;
+$form-check-input-checked-border-color: $primary;
+
+//font
+$custom-fonts: "Noto Sans TC", "Noto Serif TC";
+$font-family-sans-serif:
+    #{$custom-fonts},
+    #{$font-family-sans-serif};
+
+$font-sizes: map-merge(
+    $font-sizes,
+    (
+        14: 14px,
+    )
+);
+
+//space
+$spacers: map-merge(
+    $spacers,
+    (
+        60: 60px,
+    )
+);
+
+$headings-margin-bottom: 0;
+$paragraph-margin-bottom: 0;
+
+//radius
+$enable-rounded: false;
+
+//link underline
+$link-decoration: none;
+
+//breakpoint
+$breakpoint-md: map-get($grid-breakpoints, md);
+$breakpoint-lg: map-get($grid-breakpoints, lg);
+
+
