@@ -15,3 +15,7 @@
         @content;
     }
 }
+
+@mixin bg-cover($url){
+    background-image: url($url);
+}

@@ -44,15 +44,14 @@
 }
 
 .customerTroubleImg{
-    max-height: 180px;
+    max-height: 300px;
 
     @include lg{
         max-height: 400px;
     }
 }
 
-
-/*----- -----*/
+/*----- vVibe three features-----*/
 @media (min-width: 1550px) {
     .logoDecorateText{
         display: block !important;
@@ -62,4 +61,12 @@
         left: -140px;
     
     }
+}
+
+/*----- hot sale-----*/
+.bg-leaf{
+    @include bg-cover("#{$imgPath}bg-leaf.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

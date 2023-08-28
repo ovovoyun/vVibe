@@ -1,3 +1,6 @@
+//customer
+$imgPath: "../images/";
+
 //color
 $primary: #4A7D09;
 $lightPrimary: #F9FFEA;
@@ -7,7 +10,7 @@ $light: #fff;
 
 $lightGray: #F4F4F4;
 $darkGray: #B3B3B3;
-
+$border-color: $primary;
 
 $theme-colors: map-merge(
     $theme-colors,
@@ -51,6 +54,7 @@ $headings-line-height: 1.5;
 $font-sizes: map-merge(
     $font-sizes,
     (
+        30: 30px,
         80: 80px,
         120: 120px
     )
@@ -64,6 +68,7 @@ $spacers: map-merge(
         20: 20px,
         28: 28px,
         36: 36px,
+        60: 60px,
         64: 64px,
         80: 80px
     )
@@ -83,4 +88,5 @@ $link-decoration: none;
 $breakpoint-md: map-get($grid-breakpoints, md);
 $breakpoint-lg: map-get($grid-breakpoints, lg);
 
-
+//card
+$card-spacer-x: 24px;

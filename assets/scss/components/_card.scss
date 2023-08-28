@@ -1,0 +1,19 @@
+.card{
+    padding: 0;
+
+    img{
+        @include size(306px, 306px);
+    }
+}
+
+.cardList{
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    @include lg{
+        width: 966px;
+    }
+}

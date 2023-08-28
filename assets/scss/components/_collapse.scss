@@ -1,0 +1,26 @@
+.collapseTitle{
+    &:hover{
+        .expand_more, .expand_less, h5{
+            color: white !important;
+        }
+    }
+}
+
+.collapsed {
+    .expand_more {
+        display: inline-block;
+    }
+
+    .expand_less {   
+        display: none;
+    }
+}
+
+.expand_more {
+    display: none;
+}
+
+.expand_less {
+    display: inline-block;
+}
+
