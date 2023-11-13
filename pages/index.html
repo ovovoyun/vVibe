@@ -40,7 +40,7 @@
 
     <section class="container mb-80">
         <div class="row row-cols-1 gy-80">
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <div class="row justify-content-center align-items-center row-cols-1 row-cols-lg-2 gy-3 gy-lg-0">
                     <div class="col-lg-4 d-flex justify-content-center">
                         <div class="position-relative fit-content">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <div class="row flex-lg-row-reverse justify-content-center align-items-center row-cols-1 row-cols-lg-2 gy-3 gy-lg-0">
                     <div class="col-lg-4 d-flex justify-content-center">
                         <div class="position-relative fit-content">
@@ -70,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <div class="row justify-content-center align-items-center row-cols-1 row-cols-lg-2 gy-3 gy-lg-0">
                     <div class="col-lg-4 d-flex justify-content-center">
                         <div class="position-relative fit-content">
@@ -92,9 +92,9 @@
         <span class="d-none position-absolute logoDecorateText ff-redHatMono fs-120 lh-1">vVibe</span>
         <div class="container bg-light px-0 px-lg-4">
             <div class="bg-lightPrimary py-36 py-lg-64">
-                <h3 class="mb-4 mb-lg-5 ff-notoSerif fs-2 text-primary text-center">我們為您排難解憂</h3>
+                <h3 class="mb-4 mb-lg-5 ff-notoSerif fs-2 text-primary text-center" data-aos="zoom-in">我們為您排難解憂</h3>
                 <div class="row row-cols-1 row-cols-lg-3 gy-4 gy-lg-0 justify-content-center">
-                    <div class="col-lg-3 text-center">
+                    <div class="col-lg-3 text-center" data-aos="flip-left">
                         <span class="material-symbols-outlined mb-lg-2 fs-80 text-primary">food_bank</span>
                         <h4 class="mb-2 ff-notoSerif fs-3 text-primary">愜意用餐</h4>
                         <p>
@@ -103,7 +103,7 @@
                             即刻享受美食。
                         </p>
                     </div>
-                    <div class="col-lg-3 text-center">
+                    <div class="col-lg-3 text-center" data-aos="flip-left">
                         <span class="material-symbols-outlined mb-lg-2 fs-80 text-primary">shopping_bag</span>
                         <h4 class="mb-2 ff-notoSerif fs-3 text-primary">輕鬆購物</h4>
                         <p>
@@ -112,7 +112,7 @@
                             讓您輕鬆選購好物。
                         </p>
                     </div>
-                    <div class="col-lg-3 text-center">
+                    <div class="col-lg-3 text-center" data-aos="flip-left">
                         <span class="material-symbols-outlined mb-lg-2 fs-80 text-primary">storefront</span>
                         <h4 class="mb-2 ff-notoSerif fs-3 text-primary">便捷取貨</h4>
                         <p>
@@ -127,17 +127,17 @@
     </section>
 
     <section class="mb-80">
-        <h3 class="mb-36 mb-lg-0 ff-notoSerif fs-2 text-primary text-center">您可以...</h3>
+        <h3 class="mb-36 mb-lg-0 ff-notoSerif fs-2 text-primary text-center" data-aos="zoom-in">您可以...</h3>
         <div class="container">
             <div class="row row-cols-1 row-cols-lg-3 justify-content-center align-items-center">
                 <div class="col-lg-3 d-flex flex-column align-items-center">
-                    <div class="d-flex d-lg-none mb-4">
+                    <div class="d-flex d-lg-none mb-4" data-aos="zoom-in">
                         <h4 class="me-12 ff-notoSerif text-primary">線上<br/>預約</h4>
                         <p class="fs-4">輕鬆預約<br/>用餐時段</p>
                     </div>
                     <img src="../assets/images/reserve.png" alt="reserve" class="img-fluid personImg">
                 </div>
-                <div class="col-lg-3 d-flex flex-column align-items-center">
+                <div class="col-lg-3 d-flex flex-column align-items-center" data-aos="zoom-in">
                     <div class="d-none d-lg-flex">
                         <h4 class="me-12 ff-notoSerif text-primary">線上<br/>預約</h4>
                         <p class="fs-4">輕鬆預約<br/>用餐時段</p>
@@ -157,7 +157,7 @@
 
     <section class="bg-leaf py-60 mb-80">
         <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center">
-            <div class="me-lg-4">
+            <div class="me-lg-4" data-aos="fade-up">
                 <h3 class="mb-2 mb-lg-3 ff-notoSerif text-light">熱銷商品</h3>
                 <p class="mb-12 mb-lg-4 text-light">
                     我們引以為傲的精選商品，<br/>
@@ -172,7 +172,7 @@
     </section>
 
     <section class="container mb-80">
-        <h3 class="mb-4 mb-lg-36 ff-notoSerif text-primary fs-2 text-center">購物須知</h3>
+        <h3 class="mb-4 mb-lg-36 ff-notoSerif text-primary fs-2 text-center" data-aos="zoom-in">購物須知</h3>
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <ul class="list-unstyled">
@@ -286,6 +286,8 @@
     <%- include('./layout/footer.ejs'); -%>
     <script type="module" src="../js/main.js"></script>
     <script type="module" src="../js/index.js"></script>
+    <script type="module" src="../js/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 
 </html>
